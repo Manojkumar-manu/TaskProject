@@ -11,60 +11,69 @@ import Styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer id={Styles.mainFooter}>
-      <article>
-        <div id={Styles.subFooter}>
-          <div id={Styles.subFooter3}>
-            <hr
-              style={{ width: "60%", marginLeft: "1%", marginBottom: "5%" }}
-            />
-            <h1>OUR TOURS</h1>
-            <p>Valaam island</p>
-            <p>Relax tours</p>
-            <p>Extreme tours</p>
-            <p>Wild nature</p>
-            <p>Ritro train event</p>
-            <p>Amazing smashed tour</p>
-            <div style={{ marginTop: "12%" }}>
-              <span>PRIVACY POLICY</span>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <span>QUESTION</span>
-              <p>2015 Kareliaged travel All rights reserved.</p>
+    <main id="footer-block">
+      <footer id={Styles.mainFooter}>
+        <article>
+          <div id={Styles.subFooter}>
+            <div id={Styles.subFooter3}>
+              <hr
+                style={{ width: "60%", marginLeft: "1%", marginBottom: "5%" }}
+              />
+              <h1>OUR TOURS</h1>
+              <p>Valaam island</p>
+              <p>Relax tours</p>
+              <p>Extreme tours</p>
+              <p>Wild nature</p>
+              <p>Ritro train event</p>
+              <p>Amazing smashed tour</p>
+              <div style={{ marginTop: "12%" }}>
+                <span>PRIVACY POLICY</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>QUESTION</span>
+                <p>2015 Kareliaged travel All rights reserved.</p>
+              </div>
+            </div>
+            <div id={Styles.subFooter4}>
+              <hr
+                style={{ width: "60%", marginLeft: "1%", marginBottom: "5%" }}
+              />
+              <h1>GET-IN-TOUCH</h1>
+              <p>Ask a question</p>
+            </div>
+            <div id={Styles.subFooter5}>
+              <hr
+                style={{ width: "60%", marginLeft: "1%", marginBottom: "5%" }}
+              />
+              <h1>CONTACT US</h1>
+              <p>Fontanka street, 16-Saint Pitersburg</p>
+              <p>8800333-44-36</p>
+              <p>info@kareliagid.ru</p>
+            </div>
+            <div id={Styles.subFooter6}>
+              <div id={Styles.socialIcons}>
+                <span>
+                  <BiBold />
+                </span>
+                <span>
+                  <a href="https://www.facebook.com/DIGISTARTD/" target="_new">
+                    <RiFacebookCircleLine />
+                  </a>
+                </span>
+                <span>
+                  <a
+                    href="https://twitter.com/start_digi?lang=ca"
+                    target="_new"
+                  >
+                    <RxTwitterLogo />
+                  </a>
+                </span>
+                <p>Design & develop by Manoj</p>
+              </div>
             </div>
           </div>
-          <div id={Styles.subFooter4}>
-            <hr
-              style={{ width: "60%", marginLeft: "1%", marginBottom: "5%" }}
-            />
-            <h1>GET-IN-TOUCH</h1>
-            <p>Ask a question</p>
-          </div>
-          <div id={Styles.subFooter5}>
-            <hr
-              style={{ width: "60%", marginLeft: "1%", marginBottom: "5%" }}
-            />
-            <h1>CONTACT US</h1>
-            <p>Fontanka street, 16-Saint Pitersburg</p>
-            <p>8800333-44-36</p>
-            <p>info@kareliagid.ru</p>
-          </div>
-          <div id={Styles.subFooter6}>
-            <div id={Styles.socialIcons}>
-              <span>
-                <BiBold />
-              </span>
-              <span>
-                <RiFacebookCircleLine />
-              </span>
-              <span>
-                <RxTwitterLogo />
-              </span>
-              <p>Design & develop by Manoj</p>
-            </div>
-          </div>
-        </div>
-      </article>
-    </footer>
+        </article>
+      </footer>
+    </main>
   );
 };
 

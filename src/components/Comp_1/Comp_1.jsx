@@ -20,189 +20,191 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Comp_1() {
   return (
-    <Box
-      sx={{
-        flexGrow: 1,
-        width: "80%",
-        margin: "0 auto",
-        minHeight: "50vh",
-        marginBottom:"5%",
-      }}
-    >
-      <Grid container spacing={7}>
-        <Grid item xs={6} md={3}>
-          <Item>
-            <section
-              style={{
-                dis: "flex",
-                alignItems: "center",
-                justifyContent: "cenetr",
-              }}
-            >
-              <div className={styles.outerCircle}>
-                <div className={styles.middleCircle}>
-                  <div className={styles.innerCircle}>82</div>
-                </div>
-              </div>
-            </section>
-            <main
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "10px",
-                flexDirection: "column",
-              }}
-            >
-              <p
+    <main id="comp1-block">
+      <Box
+        sx={{
+          flexGrow: 1,
+          width: "80%",
+          margin: "0 auto",
+          minHeight: "50vh",
+          marginBottom: "5%",
+        }}
+      >
+        <Grid container spacing={7}>
+          <Grid item xs={6} md={3}>
+            <Item>
+              <section
                 style={{
-                  textAlign: "center",
-                  width: "90%",
-                  fontSize: "20px",
-                  fontWeight: "600",
+                  dis: "flex",
+                  alignItems: "center",
+                  justifyContent: "cenetr",
                 }}
               >
-                <i className={styles.pool}>
-                  Is the diameter of the pool for a depth of 9.4 meters
-                </i>
-              </p>
-              <p style={{ fontSize: "14px", textAlign: "center" }}>
-                Moved by 11 lifts and can go from a swimming pool to a dry stage
-                in less than a minute
-              </p>
-            </main>
-          </Item>
-        </Grid>
-        <Grid item xs={6} md={3}>
-          <Item>
-            <section
-              style={{
-                dis: "flex",
-                alignItems: "center",
-                justifyContent: "cenetr",
-              }}
-            >
-              <div className={styles.outerCircle}>
-                <div className={styles.middleCircle}>
-                  <div className={styles.innerCircle}>37</div>
+                <div className={styles.outerCircle}>
+                  <div className={styles.middleCircle}>
+                    <div className={styles.innerCircle}>82</div>
+                  </div>
                 </div>
-              </div>
-            </section>
-            <main
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "10px",
-                flexDirection: "column",
-              }}
-            >
-              <p
+              </section>
+              <main
                 style={{
-                  textAlign: "center",
-                  width: "90%",
-                  fontSize: "20px",
-                  fontWeight: "600",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "10px",
+                  flexDirection: "column",
                 }}
               >
-                <i className={styles.pool}>
-                  Is the diameter of the pool for a depth of 9.4 meters
-                </i>
-              </p>
-              <p style={{ fontSize: "14px", textAlign: "center" }}>
-                Moved by 11 lifts and can go from a swimming pool to a dry stage
-                in less than a minute
-              </p>
-            </main>
-          </Item>
-        </Grid>
-        <Grid item xs={6} md={3}>
-          <Item>
-            <section
-              style={{
-                dis: "flex",
-                alignItems: "center",
-                justifyContent: "cenetr",
-              }}
-            >
-              <div className={styles.outerCircle}>
-                <div className={styles.middleCircle}>
-                  <div className={styles.innerCircle}>14</div>
-                </div>
-              </div>
-            </section>
-            <main
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "10px",
-                flexDirection: "column",
-              }}
-            >
-              <p
+                <p
+                  style={{
+                    textAlign: "center",
+                    width: "90%",
+                    fontSize: "20px",
+                    fontWeight: "600",
+                  }}
+                >
+                  <i className={styles.pool}>
+                    Is the diameter of the pool for a depth of 9.4 meters
+                  </i>
+                </p>
+                <p style={{ fontSize: "14px", textAlign: "center" }}>
+                  Moved by 11 lifts and can go from a swimming pool to a dry
+                  stage in less than a minute
+                </p>
+              </main>
+            </Item>
+          </Grid>
+          <Grid item xs={6} md={3}>
+            <Item>
+              <section
                 style={{
-                  textAlign: "center",
-                  width: "90%",
-                  fontSize: "20px",
-                  fontWeight: "600",
+                  dis: "flex",
+                  alignItems: "center",
+                  justifyContent: "cenetr",
                 }}
               >
-                <i className={styles.pool}>
-                  Is the diameter of the pool for a depth of 9.4 meters
-                </i>
-              </p>
-              <p style={{ fontSize: "14px", textAlign: "center" }}>
-                Moved by 11 lifts and can go from a swimming pool to a dry stage
-                in less than a minute
-              </p>
-            </main>
-          </Item>
-        </Grid>
-        <Grid item xs={6} md={3}>
-          <Item>
-            <section
-              style={{
-                dis: "flex",
-                alignItems: "center",
-                justifyContent: "cenetr",
-              }}
-            >
-              <div className={styles.outerCircle}>
-                <div className={styles.middleCircle}>
-                  <div className={styles.innerCircle}>90</div>
+                <div className={styles.outerCircle}>
+                  <div className={styles.middleCircle}>
+                    <div className={styles.innerCircle}>37</div>
+                  </div>
                 </div>
-              </div>
-            </section>
-            <main
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "10px",
-                flexDirection: "column",
-              }}
-            >
-              <p
+              </section>
+              <main
                 style={{
-                  textAlign: "center",
-                  width: "90%",
-                  fontSize: "20px",
-                  fontWeight: "600",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "10px",
+                  flexDirection: "column",
                 }}
               >
-                <i className={styles.pool}>
-                  Is the diameter of the pool for a depth of 9.4 meters
-                </i>
-              </p>
-              <p style={{ fontSize: "14px", textAlign: "center" }}>
-                Moved by 11 lifts and can go from a swimming pool to a dry stage
-                in less than a minute
-              </p>
-            </main>
-          </Item>
+                <p
+                  style={{
+                    textAlign: "center",
+                    width: "90%",
+                    fontSize: "20px",
+                    fontWeight: "600",
+                  }}
+                >
+                  <i className={styles.pool}>
+                    Is the diameter of the pool for a depth of 9.4 meters
+                  </i>
+                </p>
+                <p style={{ fontSize: "14px", textAlign: "center" }}>
+                  Moved by 11 lifts and can go from a swimming pool to a dry
+                  stage in less than a minute
+                </p>
+              </main>
+            </Item>
+          </Grid>
+          <Grid item xs={6} md={3}>
+            <Item>
+              <section
+                style={{
+                  dis: "flex",
+                  alignItems: "center",
+                  justifyContent: "cenetr",
+                }}
+              >
+                <div className={styles.outerCircle}>
+                  <div className={styles.middleCircle}>
+                    <div className={styles.innerCircle}>14</div>
+                  </div>
+                </div>
+              </section>
+              <main
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "10px",
+                  flexDirection: "column",
+                }}
+              >
+                <p
+                  style={{
+                    textAlign: "center",
+                    width: "90%",
+                    fontSize: "20px",
+                    fontWeight: "600",
+                  }}
+                >
+                  <i className={styles.pool}>
+                    Is the diameter of the pool for a depth of 9.4 meters
+                  </i>
+                </p>
+                <p style={{ fontSize: "14px", textAlign: "center" }}>
+                  Moved by 11 lifts and can go from a swimming pool to a dry
+                  stage in less than a minute
+                </p>
+              </main>
+            </Item>
+          </Grid>
+          <Grid item xs={6} md={3}>
+            <Item>
+              <section
+                style={{
+                  dis: "flex",
+                  alignItems: "center",
+                  justifyContent: "cenetr",
+                }}
+              >
+                <div className={styles.outerCircle}>
+                  <div className={styles.middleCircle}>
+                    <div className={styles.innerCircle}>90</div>
+                  </div>
+                </div>
+              </section>
+              <main
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "10px",
+                  flexDirection: "column",
+                }}
+              >
+                <p
+                  style={{
+                    textAlign: "center",
+                    width: "90%",
+                    fontSize: "20px",
+                    fontWeight: "600",
+                  }}
+                >
+                  <i className={styles.pool}>
+                    Is the diameter of the pool for a depth of 9.4 meters
+                  </i>
+                </p>
+                <p style={{ fontSize: "14px", textAlign: "center" }}>
+                  Moved by 11 lifts and can go from a swimming pool to a dry
+                  stage in less than a minute
+                </p>
+              </main>
+            </Item>
+          </Grid>
         </Grid>
-      </Grid>
-    </Box>
+      </Box>
+    </main>
   );
 }

@@ -61,7 +61,11 @@ export default function Comp_2() {
               >
                 More?
               </h1>
-              <button id={Styles.buyTickets}>Buy Tickets</button>
+              <button id={Styles.buyTickets}>
+                <a href="https://www.booking.com/hotel/au/karelia-alpine-lodge.html">
+                  Buy Tickets
+                </a>
+              </button>
             </Box>
           </Grid>
         </Grid>

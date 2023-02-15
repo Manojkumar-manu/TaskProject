@@ -8,45 +8,6 @@
   background-color: black;
   position: relative;
 }
-
-.menuBlock {
-  border: 1px solid black;
-  width: 6%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 3%;
-  top: 4%;
-  z-index: 3;
-  background-color: transparent;
-
-}
-.menuBlock:hover{
-    background-color: rgb(20, 20, 20);
-    color: white;
-}
-.humburger {
-  font-size: 25px;
-  position: relative;
-  left: 0%;
-  top: 3px;
-  margin-right: 5px;
-}
-.menu {
-  font-size: 10px;
-}
-.language {
-  position: absolute;
-  right: 3%;
-  top: 5%;
-  font-size: 12px;
-  z-index: 4;
-  cursor: pointer;
-}
-.language > span {
-  font-weight: 600;
-}
 .description {
   position: absolute;
   z-index: 5;
@@ -64,17 +25,19 @@
   margin-top: 20px;
   display: flex;
 }
-.buy_play > button {
+.buy_play > button{
   margin-right: 30px;
   background-color: transparent;
   border: 1px solid black;
-  padding: 10px 30px 10px;
-  font-size: 10px;
+  padding: 10px  ;
+  font-size: 15px;
   letter-spacing: 1px;
+  text-decoration: none;
 }
-.buy_play > button:hover {
+.buy_play > button>a:hover {
   background-color: black;
   color: white;
+  text-decoration: none;
 
 }
 .videoIconBlock {
